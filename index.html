@@ -1,7 +1,145 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Chris Sherlock</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="sherlock.css" />
+</head>
 <body>
-<h1>Chris Sherlock's Pages</h1>
-<p>This will all be filled in. For now, see my <a href=https://www.maths.lancs.ac.uk/~sherlocc/> Lancaster University pages</a>.</p>
+
+<div id="pagewrapper">	
+  <div id="page">	<!-- "page" effect -->
+    <div id="header">
+      <h1>Chris Sherlock</h1>	<!-- banners, h1, h2 offset to create shadow effect -->
+      <h2>Chris Sherlock</h2>
+    </div>
+
+<!-- <div id="overtopnav"></div> -->
+
+    <div id="topnav">		<!-- the strip with links -->
+      <ul>
+        <li><a href="http://www.maths.lancs.ac.uk/~sherlocc/">Home</a></li> 
+        <li><a href="Research/publications.html">Publications</a></li>
+	<li><a href="Teaching/teach_index.html">Teaching</a></li>
+<!--       <li><a href="FormEmail/FormEmail.html">Contact</a></li>  -->
+      </ul>
+    </div>	
+
+<!--    <div id="undertopnav"></div>	 the fade effect after top nav, to mirror the header background -->
+
+	<div id="breadcrumb"> 	<!-- the "you are here" bit -->
+		<font color="#90200a">You are here:</font> &nbsp
+		<a href="http://www.maths.lancs.ac.uk/~sherlocc/">Home</a> 
+	</div>
+
+    <div id="main">
+      <div id="body">
+
+        <h2>Welcome - <it>pages under construction, some links not connected (08/2021) </h2>
+        
+	<p>
+	I am a Reader in Statistics within the Mathematics and Statistics Department at Lancaster University.  On these pages you will find information about my research and professional activities.</p>  
+
+ <br> 
+
+        <h2> Research </h2>
+	<p>My research interests include: 
+	<ul>
+		<li> Markov chain Monte Carlo (MCMC):
+<ul>
+<li> theory on convergence and efficiency of MCMC algorithms;</li>
+<li> methodology such as pseudo-marginal MCMC and non-reversible MCMC;</li>
+<li> application of MCMC, especially in areas such as systems biology, ecology, the environment and epidemiology.</li>
+</ul>
+<li> Particle filters and Sequential Monte Carlo - especially their use within MCMC algorithms.</li>
+<li> Use of Markov jump processes and diffusions for Bayesian inference in systems biology and ecology - in particular developing new bridges for use in particle MCMC algorithms. </li> 
+<li> More general statistical inference for ecology, epidemiology and the environment.</li>
+</ul>
+<br>
+
+<h2>Research-level tutorials</h2>
+<p>
+<em>Pseudo-marginal MCMC</em> opened up inference for SDEs and MJPs to a relatively standard approach using particle filters; <a href="ResearchTutorials/pseudo_marginal_simple.pdf">here</a> is a simple explanation of the basics and (partial) review of the literature.
+<br>
+<em>Variational representations</em> of Markov kernels can be powerful tools in the analysis of their behaviour; <a href="ResearchTutorials/L2var.pdf">here</a> [<a href="https://arxiv.org/abs/1809.01903">arXiv</a>] is a description of three that I have found useful.
+<br>
+During my PhD I found out a little about 
+<em>particle
+filters</em>. <a href="ResearchTutorials/pf.pdf">Here</a> is an introduction
+to the SIR and ASIR filters - an explanation for beginners.
+</p>
+<br>
+<br>
+
+
+<h2> PhDs</h2>
+<p>
+If you are interested in studying for a PhD with me then please contact me at the email address on the right.  Example research areas include: <br><br>
+
+1. <b>Non-reversible MCMC</b>.  Standard MCMC is reversible: on a uniform target, for example, the probability of moving from A to B is the same as the probability of moving from B to A. Hence there is a natural tendency for the algorithm to meander, with a distance proportional to n^1/2 covered in n iterations. Interesting non-reversible MCMC algorithms retain a sense of direction and have the potential for exploring the space much more efficiently. Examples include Hamiltonion Monte Carlo and the discrete bouncy particle sampler as well at continuous-time algorithms such as the bouncy particle sampler and the zig-zag sampler. An example project might look at developing a new non-reversible algorithm and applying it to some interesting application type. <br />
+
+2. <b>MCMC for reaction networks</b>.  Consider a set of species: this could be literal, such as foxes and rabbits, or a protein and its dimer, or could be classes such as people susceptible to a disease, people infected with a disease and people who have recovered from the disease. The different species interact through "reactions" (e.g. a fox eats a rabbit) and the rate of these reactions depends on the current numbers of the relevant species (e.g. the more foxes and rabbits there are, the more rabbits are eaten each day). A reaction network is the continuous-time Markov chain whose state is the current number of each species. Interest may lie in the forms of the reactions and their rates, in the current or historical species numbers, future prediction, or even all three. An example project might create a new, more efficient inference methodology for a subclass of reaction networks and apply to an autoregulatory gene network.<br />
+
+</p>
+
+<br>
+
+
+<h2> Admin </h2>
+<p>
+I am (2019-present) the group lead for the Computational Statistics group. From 2013-2019 I was the Programme Tutor for the MSc in Statistics. From 2007-2013 I was Admissions Tutor for the MSc in Statistics.</p>
+</p>
+<br>
+
+        <h2>Other links</h2>
+        <div class="nav">
+          <ul>
+<li><a href="https://lu-csml.github.io/">Lancaster CSML group page</a></li>
+<li><a href="Publications/InterestingLinks.html">Interesting pages and papers</a></li>
+            <li><a href="http://www.maths.lancs.ac.uk/">Lancaster Mathematics and Statistics</a></li>
+            <li><a href="http://www.lancaster.ac.uk/maths/news-and-events/events/">Lancaster Mathematics and Statistics seminar schedule</a></li>
+          </ul>
+        </div>
+
+<br>
+<h3> Other stuff
+Todo.
+<br>
+	
+
+      </div>	<!-- body -->
+
+      <div id="right">
+
+	<!-- put lame mugshot of me here once I have it -->
+
+
+	<IMG SRC="Images/BarryLUDUS.JPG" WIDTH="275" HEIGHT="400" BORDER="1" align="right" hspace="10" vspace="10"><br clear=both>	 
+
+        <p>  <!-- does the shading -->
+	Dr. Chris Sherlock<br>
+<!--    Room B56 -->
+	Mathematics and Statistics Department<br>
+        Fylde College <br>
+        Lancaster University<br>
+        Lancaster<br>
+	LA 1 4YF<br>
+        <br>
+<!--	Tel.: +44 (0) 1524 xxxxxx  -->	
+	Email: c.sherlock (at) lancaster.ac.uk</p>
+
+      </div>	  	<!-- end of right bit -->
+
+    </div>	<!-- end of main  -->
+    <div id="footer">	
+	<p>
+	If you have any suggestions, comments or questions about anything on this website, don't hesitate to email me</a>.
+	</p>
+	</div>  
+  </div>	<!-- page -->
+</div>		<!-- pagewrapper -->
 </body>
 </html>
+
+
+
