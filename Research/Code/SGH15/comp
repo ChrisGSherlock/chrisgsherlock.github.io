@@ -1,0 +1,1 @@
+gcc -Wall  kdtree.c -o kd -lm -lgsl -lgslcblas
