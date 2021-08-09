@@ -1,0 +1,156 @@
+/* CSS Document */
+
+/* spacings for e.g. margins are in the order: top right bottom left	*/
+
+<style type="text/css">
+
+body { text-align:center; font-family:verdana; }
+#pagewrapper,#page { width:1075px; margin:auto; text-align:left; display:block; }
+
+/* #pagewrapperf,#pagef {margin:auto; text-align:left; display:block; } */
+
+ #page{position:relative} 
+#header 
+{
+position:relative;
+ display:block; height:100px; 
+ padding:0px;
+ clear:both;
+ margin:0px 0px 0px 0px;
+/* background: url(menu-top-bg.png) repeat-x;*/
+background-color:#5a8b92;
+}
+
+#header h1{
+position: absolute;
+ left: 20px; bottom: 20px;
+ margin: 10px;
+ font: 30px georgia, serif;
+ color: #fff;
+ z-index: 1;
+}
+
+#header h2{
+ position: absolute;
+ left: 21px; bottom: 19px;
+ margin: 10px;
+ font: 30px georgia, serif;
+ color: #003366; 
+ z-index: 0;
+}
+
+#topnav 
+{
+ text-align:right;
+color:#1d7373;
+ margin:0px 0px 0px 0px;
+ font-family:13pt verdana, Arial, sans-serif ;
+ padding:5px;
+ background: #F5F7F9;
+}
+
+#topnav ul { list-style-type:none; margin:0; padding:0px; }
+#topnav ul li { display:inline; margin-right:6px; margin-left:6px; }
+
+#overtopnav{
+ height: 24px;
+ background: #1d575f;
+/* background: url(menu-top-bg.png) repeat-x;*/
+}
+
+#undertopnav{
+ height: 24px;
+/* background:#003366;*/
+ background: url(menu-bottom-bg.png) repeat-x;
+}
+
+
+#main
+{
+ margin:0px;
+ border:0px solid #CCCCCC;
+ clear:both;
+ display:block;
+ margin-bottom:40px;
+ margin-left:10px;
+ margin-right:40px;
+} 
+
+#breadcrumb 
+{
+	font-family: Georgia, Lucida, Arial, sans-serif;
+	font-weight:bold;
+	font-style:italic;
+        text-align: left;
+	color: #68989f;
+	padding:3px;
+	padding-left:5px;
+	background: url(menu-bottom-bg.png) repeat-x;
+	height:24px;
+}
+
+#breadcrumb a:link, #breadcrumb a:visited
+{
+	color: #66989f;
+	text-decoration: none;
+}
+
+#breadcrumb a:hover
+{
+	color: #aaaaaa;
+	text-decoration: none;
+}
+
+
+#right { width:30%; float:right; margin:12px; font-size:16px}
+#right p
+{
+	padding: 12px;
+	background-color: #e3e3e3;
+	margin-left:10px;
+	line-height:20px;
+}
+
+#body { width:60%; float:left; margin-bottom:20px; margin:10px; margin-right:0 }
+#bodyfull {float:left; margin-bottom:20px; margin:10px; margin-right:0 }
+
+
+#footer {height:24px; clear:both; margin:0px; text-align:center; font-size:12px; display:block; }
+  #footer { background:#e3e3f3; color:#333333; padding: 0px 0px 0px 0px; bottom:0px} 
+/* #footer { background: url(menu-top-bg.png) repeat-x; color:#FFFFFF; padding:0px 0px 0px 0px; } */
+
+#header{ border-top:0px solid #666666; border-bottom:0px solid #666666; }
+
+.bcol { color:#fb9622; }
+
+
+/****************************************************************/
+/*
+#main h2 { color:#7D3F00; margin:20px 0 6px;padding-bottom:10px;font:normal 17px Georgia, serif;border-bottom : 1px solid #e2dfdb; }
+*/
+#main h2 { color:#90200A; margin:20px 0 6px 20px;padding-bottom:10px;font:normal 20px Georgia, serif;border-bottom : 1px solid #e3e3e3; }
+#right h2 {font-size:20px;margin-left:0px}
+#bodyfull h2 { color:#90200A; margin:20px 0 6px 20px;padding-bottom:10px;font:normal 26px Georgia, serif;border-bottom : 0px solid #e3e3e3; }
+
+
+#main { font:14px verdana; line-height:25px; }
+p { padding:0; margin-left:20px; margin-right:5px; margin-top:12px; margin-bottom:10px; }
+ul {margin-left:12px; line-height:26px}
+li {margin-bottom: 15px; }
+
+/******************************************************************/
+#page { border:1px solid #333333; color:#333333; background:#fff; }
+
+a { color:#90200a; text-decoration:none}
+a:hover { color:#aaaaaa }
+
+#topnav a , #footer a{ color:#90200a; text-decoration:none; font-weight:bold;  }
+#topnav a:hover, #footer a:hover {color:#aaaaaa; text-decoration:none; }
+
+body {font : normal 12px/1.6em Arial, Helvetica, sans-serif;color : #2a3845;margin : 0;padding : 0;background:#f7f7f7}
+
+.nav ul { margin-left:12px; list-style:inside; margin-top:10px; padding-left:6px; }
+.nav li { margin-bottom:0px; }
+
+
+tr.myt { color: #009900; }
